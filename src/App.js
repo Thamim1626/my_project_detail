@@ -115,6 +115,7 @@ class App extends Component {
               key={tabDetails.tabId}
               tabDetails={tabDetails}
               checkWebsite={this.checkWebsite}
+              isActive={category === tabDetails.tabId}
             />
           ))}
         </ul>
